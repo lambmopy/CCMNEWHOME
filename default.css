@@ -542,6 +542,13 @@ button {
     padding: 15px 32px;
 	margin-left: 60%;
 	}
+button1 {
+    background-color: #4CAF50;
+    font-size: 1.1em;
+    /* text-align: center; */
+    padding: 5px 5px;
+	margin-left: 2%;
+	}
 select.rightq {
 		padding: 0.5%;
 	}
