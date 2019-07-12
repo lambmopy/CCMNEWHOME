@@ -529,18 +529,26 @@
 	}
 .leftq {
 		float:left;
-		max-width: 30%;
+		max-width: 50%;
 		text-align: left;
 	}
-.leftr {
-		float:right;
+.rightq {
+		padding: 0.5%;
+		max-width: 10em;
+		float:	right;
+	}
+.major {
+	    margin-top: 5%;
+	}
+#questions {
+		max-width: 800px;
 	}
 button {
     background-color: #4CAF50;
     font-size: 1.2em;
     /* text-align: center; */
     padding: 15px 32px;
-	margin-left: 60%;
+	float: right;
 	}
 button1 {
     background-color: #4CAF50;
@@ -549,9 +557,15 @@ button1 {
     padding: 5px 5px;
 	margin-left: 2%;
 	}
-select.rightq {
-		padding: 0.5%;
+.col-md-6 {
+	max-width: 50%;
+	float:left;
 	}
-.major {
-	    margin-top: 5%;
-	}
+textarea#message {
+    float: left;
+    max-width: 90%;
+}
+button.btn.btn-primary.pull-right {
+    float: left;
+}
+
