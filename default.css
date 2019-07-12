@@ -535,3 +535,16 @@
 .leftr {
 		float:right;
 	}
+button {
+    background-color: #4CAF50;
+    font-size: 1.2em;
+    /* text-align: center; */
+    padding: 15px 32px;
+	margin-left: 60%;
+	}
+select.rightq {
+		padding: 0.5%;
+	}
+.major {
+	    margin-top: 5%;
+	}
