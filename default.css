@@ -7,7 +7,7 @@
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #191919;
+		/*background: #191919; */
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 400;
@@ -155,7 +155,7 @@
 	.major
 	{
 		overflow: hidden;
-		margin-bottom: 4em;
+		/* margin-bottom: 4em; */
 		text-align: center;
 	}
 	
@@ -526,4 +526,12 @@
 		background-color: yellowgreen;
 		padding: 5% 3%;
 		font-size: 1.5em;
+	}
+.leftq {
+		float:left;
+		max-width: 30%;
+		text-align: left;
+	}
+.leftr {
+		float:right;
 	}
