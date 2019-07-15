@@ -564,8 +564,17 @@ button1 {
 textarea#message {
     float: left;
     max-width: 90%;
-}
+	}
 button.btn.btn-primary.pull-right {
     float: left;
 }
+#sharing {
+    margin: auto;
+    max-width: 1200px;
+    padding: 3em;
+	}
+#page-wrapper {
+    background: beige;
+	}
+
 
