@@ -230,7 +230,7 @@
 /* Header                                                                        */
 /*********************************************************************************/
 
-	#header
+	#header, .footer
 	{
 		background: #2A70E8;
 	}
@@ -542,6 +542,7 @@
 	}
 #questions {
 		max-width: 800px;
+		margin-bottom: 7em;
 	}
 button {
     background-color: #4CAF50;
@@ -575,6 +576,30 @@ button.btn.btn-primary.pull-right {
 	}
 #page-wrapper {
     background: beige;
+	}
+#program h1, h2 {
+    margin: 2%;
+	}
+#guideaudio, #guidetext, #register, .footer_menus, .footer_bottom {
+	text-align: center;
+	}
+.footer {
+	margin: 0 auto;
+	padding: 2em 0;
+	}
+.container, .footer_menus {
+	padding-bottom: 2em;
+	}
+div#program {
+    padding: 5em 0;
+	text-align: center;
+	}
+#program h4 {
+	padding-left: 7em;
+	}
+#contact {
+	margin: 0 auto;
+	padding: 2em 0;
 	}
 
 
