@@ -612,20 +612,30 @@ div#program {
 .col66 {
 	max-width: 66%;
 	float: left;
+	margin-bottom: 5em;
 	}
 	
 .col33 {
 	width: 26.5%;
 	float: left;
 	margin-right: 10%;
+	margin-bottom: 5em;
 	}
 .col33r {
 	width: 26.5%;
 	float: right;
-	margin-bottom: 7em;
+	margin-bottom: 5em;
 	}
 #featured .icon (
 	padding 30px 0;
-}
+	}
+.footer_bottom {
+	pading: 3em 0;
+	}
+ul#footer-1{
+    float: left;
+    width: 30%;
+	}
+
 
 
