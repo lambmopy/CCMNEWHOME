@@ -782,8 +782,42 @@ div#processing {
     margin: 0.5em;
     height: 23%;
 }
-.interview #featured {
-    margin-top: 3em;
-    /* margin-bottom: 2em; */
+.referral, .life {
+    padding: 4em;
+	font-size: 1.2em;
+	min-height: 20em;
+}
+.news {
+	text-align: center;
+}
+#news {
+	width: 800px;
+	margin: 0 auto;
+	margin-bottom: 5em; 
+	}
+.news h2, #news h3, .testimony h2 {
+    padding: 2em 0;
+}
+#news ul li, #testimony-list ul li {
+    text-decoration: none;
+    list-style-type: circle !important;
+	list-style-position: inside !important;
+	}
+
+#news li, #testimony-list li {
+    padding: 0.2em 0;
+	}
+#news ul li a, #testimony-list ul li a {
+    text-decoration: none;
+    }
+.testimony {
+    min-height: 20em;
+}
+.testimony .title .byline {
+    padding: 0 !important;
+    font-size: 1em;
+}
+#testimony-list .title h4 {
+    float: left;
 }
 
