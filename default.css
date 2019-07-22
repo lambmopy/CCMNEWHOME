@@ -562,6 +562,9 @@
 /*********************************************************************************/
 /* Added                                                                  */
 /*********************************************************************************/
+.homepage {
+    margin-top: 3em;
+}
 .box {
 		position: relative;
 		display: inline-block;
@@ -569,15 +572,15 @@
 .box .text {
 		position: absolute;
 		z-index: 999;
-		margin-top: 5%;
+		margin-top: 7.3%;
 		margin-left: 5%;
 		left: 0;
 		right: 0;
 		top: 0;
 		text-align: center;
 		width: 35%;
-		background-color: yellowgreen;
-		padding: 5% 3%;
+		background-color: #9acd3291;
+		padding: 2% 1%;
 		font-size: 1.5em;
 	}
 .leftq {
@@ -679,13 +682,13 @@ form#contactForm {
 	margin-bottom: 4em;
 	}
 .col33 {
-	width: 26.5%;
+	width: 31%;
 	float: left;
-	margin-right: 10%;
+	margin-right: 3.5%;
 	margin-bottom: 5em;
 	}
 .col33r {
-	width: 26.5%;
+	width: 31%;
 	float: right;
 	margin-bottom: 4em;
 	}
@@ -763,3 +766,23 @@ ul#footer-1{
 #featured-wrapper.needs {
     padding: 4em 0;
 }
+.privacy {
+    padding: 4em;
+    font-size: 1.2em;
+    min-height: 20em;
+}
+
+div#processing {
+    padding: 0 4em;
+}
+.col24 {
+    width: 23%;
+    float: left;
+    margin: 0.5em;
+    height: 23%;
+}
+.interview #featured {
+    margin-top: 3em;
+    /* margin-bottom: 2em; */
+}
+
