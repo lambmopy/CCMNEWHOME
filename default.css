@@ -11,7 +11,7 @@
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 400;
-		color: #4E4D4D;
+		color: rgba(11, 17, 129, 0.94);
 	}
 	
 	
@@ -43,7 +43,7 @@
 	
 	a
 	{
-		color: #383838;
+		color: #535353;
 	}
 	
 	a:hover
@@ -232,7 +232,7 @@
 
 	#header, .footer
 	{
-		background: #2A70E8;
+		background: #2b2c67;
 		color: #fff;
 	}
 
@@ -579,8 +579,9 @@
 		top: 0;
 		text-align: center;
 		width: 35%;
-		background-color: #9acd3291;
+		background-color: #fcfcfe;
 		padding: 2% 1%;
+		border-radius: 25px;
 		font-size: 1.5em;
 	}
 .leftq {
@@ -634,7 +635,7 @@ button.btn.btn-primary.pull-right {
     padding: 3em;
 	}
 #page-wrapper {
-    background: beige;
+    background: #fcfcfe;
 	}
 #page h3, #page h4 {
     /*margin-bottom: 2%;*/
@@ -761,7 +762,7 @@ ul#footer-1{
     transition: all .3s ease;
 }
 .alert-warning {
-    background-color: #ffd6cd;
+    background-color: #e0dcdb;
    }
 #featured-wrapper.needs {
     padding: 4em 0;
