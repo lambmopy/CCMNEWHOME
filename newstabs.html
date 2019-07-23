@@ -1,0 +1,201 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Swarming 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20131201
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ChristianMutual Med-aid</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+<style>
+body {font-family: "Lato", sans-serif;}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+	margin: 0 29em;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+#featured-wrapper {
+	padding:0;	
+	min-height: 800px;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+	<div id="menu" class="container">
+		<div id="logo"> <a href="index.html"><img src="images/cmmlogo.png" alt="logo"/></a></div>
+		<ul>
+			<li class="current_page_item"><a href="about.html" accesskey="1" title="">기독의료상조회</a></li>
+			<li><a href="program.html" accesskey="1" title="">프로그램</a></li>
+			<div class="dropdown">
+			<li> <a href="member.html" accesskey="" title="" class="dropdown"> Member Login</a>
+			  <div class="dropdown-content">
+				<a href="memberinfo.html">Member Information</a>
+				<a href="needs.html">의료비 신청</a>					
+			  </div>
+			</li>
+			</div>
+			<li><a href="contact.html" accesskey="2" title="">연락처</a></li>
+		</ul>
+	</div>
+	<div style="clear:both"> </div>
+</div>
+
+
+
+<div id="featured-wrapper" id="news">
+	<div id="featured" class="container">
+		<ul class="tab">
+		  <li><a href="#" class="tablinks" onclick="openCity(event, 'Newsletter')">Newsletter</a></li>
+		  <li><a href="#" class="tablinks" onclick="openCity(event, 'News')">News</a></li>
+		  <li><a href="#" class="tablinks" onclick="openCity(event, 'KCJ')">KCJ</a></li>
+		</ul>
+
+		 
+		<div id="Newsletter" class="tabcontent">
+			<div class="news">
+				<h2>CMM News Letter</h2>
+				<p><embed src="newsletter/1907_Newsletter.pdf" width ="800px" height="1100px"/> </p>
+			</div>
+			<div id="news">
+				<h3>More News Letters</h3>
+				<ul>
+					<li> <a href="newsletter/1906_Newsletter.pdf">2019년 6월 월서신</a></li>
+					<li> <a href="newsletter/1905_Newsletter.pdf">2019년 5월 월서신</a></li>
+					<li> <a href="newsletter/1904_Newsletter.pdf">2019년 4월 월서신</a></li>
+					<li> <a href="newsletter/1903_Newsletter.pdf">2019년 3월 월서신</a></li>
+					<li> <a href="newsletter/1902_Newsletter.pdf">2019년 2월 월서신</a></li>
+					<li> <a href="newsletter/1901_Newsletter.pdf">2019년 1월 월서신</a></li>
+							
+				</ul>
+			</div>
+		</div>
+
+
+		<div id="News" class="tabcontent">
+		  <h3>News</h3>
+		  <p>CMM News</p>
+		</div>
+
+		<div id="KCJ" class="tabcontent">
+		  <h3>KCJ</h3>
+		  <p>Korean Christian Journal</p>
+		</div>
+	</div>
+</div>
+
+
+
+
+<script>
+document.getElementsByClassName('tablinks')[0].click()
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+
+		
+	</div>
+</div>
+
+
+<footer class="footer">
+	
+	<div class="footer_menus">
+		<ul class="wrap">
+			<li> <a href="/contactus">언론보도</a>  </li>
+			<li><a href="interview.html">인터뷰 동영상</a>  </li>
+			<li><a href="http://www.kcjlogos.org/" target="_blank">크리스찬저널</a>		 </li>
+			<li><a href="http://www.logoshouseramona.org/" target="_blank">로고스하우스</a>  </li>
+			<li><a href="privacy.html">Privacy/Terms</a>  </li>
+			<li><a href="download/cmm_guidelines.pdf" target="_blank">CMM Guidelines</a>  </li>
+			<li><a href="download/guidelines_rider2019v1.pdf" target="_blank">Guidelines 2019 Rider</a> </li>
+		</ul>
+	</div>	
+	<div class="footer_bottom">
+		<div class="footer-logo"><img src="images/cmmlogo.png" alt="logo"/></div>
+		<div class="footer-copyright">
+			 5235 N. Elston Ave. Chicago, IL 60630 <br /> Phone 773.777.8889 Fax 773.777.0695 Email <a href="mailto:info@cmmlogos.org">info@cmmlogos.org</a><br><br>
+			@ Copyright 2018, Christian Mutual Med-Aid </div>
+		<div class="clearer"></div>
+	</div>
+</footer>
+
+<!--div id="copyright" class="container">
+	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Fotogrph</a> | Design by <a href="http://templated.co" rel="nofollow">TEMPLATED</a>.</p>
+</div-->
+</body>
+</html>
