@@ -812,12 +812,15 @@ div#processing {
     }
 .testimony {
     min-height: 20em;
-}
+	}
 .testimony .title .byline {
     padding: 0 !important;
     font-size: 1em;
-}
+	}
 #testimony-list .title h4 {
     float: left;
-}
+	}
+#sharing h2 {
+    margin: 2em 0 1em 0;    
+	}
 
