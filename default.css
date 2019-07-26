@@ -800,7 +800,10 @@ div#processing {
 	margin: 0 auto;
 	margin-bottom: 5em; 
 	}
-.news h2, #news h3, .testimony h2 {
+.news h2, 
+#news h3, 
+.testimony h2, 
+#program h2 {
     padding: 2em 0;
 }
 #news ul li, #testimony-list ul li {
