@@ -657,7 +657,7 @@ div#program {
 	text-align: center;
 	}
 #program h4 {
-	padding-left: 7em;
+	padding-left: 18em;
 	}
 #contact {
 	margin: 0 auto;
@@ -665,7 +665,7 @@ div#program {
 	}
 form#contactForm {
     width: 50%;
-    margin: 2%;
+    /*margin: 2%; */
 }
 #history #contactForm {
     padding: 3%;
@@ -806,10 +806,16 @@ div#processing {
 #program h2 {
     padding: 2em 0;
 }
+#testimony-list h2 {
+    text-align: center;
+}
 #news ul li, #testimony-list ul li {
     text-decoration: none;
     list-style-type: circle !important;
 	list-style-position: inside !important;
+	width: 32%;
+	padding-right: 1%;
+	float: left;
 	}
 
 #news li, #testimony-list li {
@@ -819,7 +825,7 @@ div#processing {
     text-decoration: none;
     }
 .testimony {
-    min-height: 20em;
+    /*margin: 3em 0;*/
 	}
 .testimony .title .byline {
     padding: 0 !important;
@@ -827,6 +833,12 @@ div#processing {
 	}
 #testimony-list .title h4 {
     float: left;
+	}
+#testimony-list ul {
+    margin-bottom: 4em;
+	}
+.testimony .container {
+	margin-bottom: 4em;
 	}
 #questions h2 {
     margin: 2em 0 1em 0;    
@@ -840,6 +852,34 @@ div#testimony-list-h {
 	list-style-position: inside !important;
 	}
 div#testimony-list {
-    margin-bottom: 4em;
-	padding-left: 4em;
+    margin: 4em 0;
+	padding-left: 1em;
+	
 	}
+#guidetext ul.tab {
+	margin: 0 25em;
+	}
+#guidetext .tabcontent {
+	padding: 0 7em;
+	}
+#news1 ul li, #news2 ul li {
+    padding-right: 3% !important;
+    width: 30%;
+	list-style-position: outside;
+}
+#faq {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.faq {
+    margin: 4em 0;
+}
+#faq h3 {
+    padding: 0 0 2em;
+}
+.faq ol li {
+    padding-bottom: 2em;
+}
+ol {
+	list-style: decimal;
+}
