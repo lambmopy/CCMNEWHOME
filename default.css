@@ -883,3 +883,30 @@ div#testimony-list {
 ol {
 	list-style: decimal;
 }
+#guide #content {
+    text-align: left;
+}
+.col-sm-1 {
+    width: 8.33%;
+    float: left;
+}.col-sm-1 {}
+
+.col-sm-8 {
+    width: 66.66%;
+    float: left;
+}
+
+.col-sm-3 {
+    width: 25%;
+    float: left;
+}
+#guide h2 {
+	text-align: left;
+}
+#rider {
+    padding: 2em 0 2em 0;
+}
+#guide #content {
+    width: 1000px;
+    float: left;
+}
