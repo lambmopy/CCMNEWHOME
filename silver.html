@@ -22,6 +22,66 @@ Released   : 20131201
 
 <!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
 
+<style>
+body {font-family: "Lato", sans-serif;}
+
+ul.tab {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+	margin: 0 29em;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+}
+#featured-wrapper {
+	padding:0;	
+	min-height: 800px;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+</style>
+
 </head>
 <body>
 
@@ -53,7 +113,23 @@ Released   : 20131201
 	</div><br>
 	<div id="guidetext">
 		<!--h1>Silver 프로그램 안내</h1><br-->
-		<p><img src="./video/guidesilver.jpg"></p>
+				<div id="featured" class="container">
+					<ul class="tab">
+					  <li><a href="#" class="tablinks" onclick="openCity(event, 'goldplus')">Silver</a></li>
+					  <li><a href="#" class="tablinks" onclick="openCity(event, 'allplans')">For all programs</a></li>
+					  <li><a href="#" class="tablinks" onclick="openCity(event, 'guide')">Guidelines</a></li>
+					</ul>
+				</div>
+
+				 
+				<div id="goldplus" class="tabcontent">
+					<p><img src="./images/program/S_1.png"></p>
+				</div>
+
+
+				<div id="allplans" class="tabcontent">
+				  <p><img src="./images/program/S_2.png"></p>
+				</div>
 	</div>
 	<div id="register">
 		<h3>Program 안내 파일을 확인 하셨습니까?  Yes  | No <br><br>
@@ -84,5 +160,21 @@ Released   : 20131201
 		<div class="clearer"></div>
 	</div>
 </footer>
+<script>
+document.getElementsByClassName('tablinks')[0].click()
+function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
 </body>
 </html>

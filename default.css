@@ -906,7 +906,11 @@ ol {
 #rider {
     padding: 2em 0 2em 0;
 }
-#guide #content {
+#guide #content, #guide .container {
     width: 1000px;
     float: left;
+	padding-left:	12%;
+}
+#guide .download .col-sm-7 {
+    width: 85%;
 }
