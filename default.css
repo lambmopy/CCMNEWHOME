@@ -796,7 +796,7 @@ div#processing {
 	text-align: center;
 }
 #news {
-	width: 800px;
+	width: 1200px;
 	margin: 0 auto;
 	margin-bottom: 5em; 
 	}
@@ -805,18 +805,24 @@ div#processing {
 .testimony h2, 
 #program h2 {
     padding: 2em 0;
+	text-align: center;
 }
 #testimony-list h2 {
     text-align: center;
 }
 #news ul li, #testimony-list ul li {
     text-decoration: none;
-    list-style-type: circle !important;
+    /*list-style-type: circle !important;*/
 	list-style-position: inside !important;
-	width: 32%;
+	padding: 0 5%;
+	/*width: 32%;
 	padding-right: 1%;
-	float: left;
+	float: left;*/
 	}
+.category-news, .category-report, .news-type, .news-cols {
+    float: left;
+	padding: 1%;
+}
 
 #news li, #testimony-list li {
     padding: 0.2em 0;
@@ -862,9 +868,9 @@ div#testimony-list {
 #guidetext .tabcontent {
 	padding: 0 7em;
 	}
-#news1 ul li, #news2 ul li {
-    padding-right: 3% !important;
-    width: 30%;
+#news1 ul li, #news2 ul li, #news3 ul li {
+    /*padding-right: 3% !important;*/
+    /*width: 30%;*/
 	list-style-position: outside;
 }
 #faq {
