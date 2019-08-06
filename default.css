@@ -638,7 +638,7 @@ button.btn.btn-primary.pull-right {
     background: #fcfcfe;
 	}
 #page h3, #page h4 {
-    /*margin-bottom: 2%;*/
+    margin-bottom: 2%;
 	padding: 2%;
 	}
 #guideaudio, #guidetext, #register, .footer_menus, .footer_bottom {
@@ -792,16 +792,16 @@ div#processing {
 	font-size: 1.2em;
 	min-height: 20em;
 }
-.news {
+.news, .report {
 	text-align: center;
 }
-#news {
+#news, #report {
 	width: 1200px;
 	margin: 0 auto;
 	margin-bottom: 5em; 
 	}
-.news h2, 
-#news h3, 
+.news h2, .report h2,
+#news h3, #report h3,
 .testimony h2, 
 #program h2 {
     padding: 2em 0;
@@ -815,21 +815,36 @@ div#processing {
     /*list-style-type: circle !important;*/
 	list-style-position: inside !important;
 	padding: 0 5%;
-	/*width: 32%;
-	padding-right: 1%;
-	float: left;*/
+	display: inline-block;
+	width: 67%;
+	margin-left: 12%;
 	}
-.category-news, .category-report, .news-type, .news-cols {
+#testimony-list ul li {
+    text-decoration: none;
+    /*list-style-type: circle !important;*/
+	list-style-position: inside !important;
+	padding: 0 5%;
+	display: inline-block;
+	}
+
+#report ul li {
+    text-decoration: none;
+    /*list-style-type: circle !important;*/
+    list-style-position: inside !important;
+    padding: 0 5%;
+     }
+
+.category-news, .category-report, .news-type, .news-cols, .report-type, .report-cols {
     float: left;
 	padding: 1%;
 }
-.news-cols, .news-type  {
+.news-cols, .news-type, .report-type, .report-cols  {
 	float:right;
 }
-#news li, #testimony-list li {
+#news li, #testimony-list li, #report li{
     padding: 0.2em 0;
 	}
-#news ul li a, #testimony-list ul li a {
+#news ul li a, #testimony-list ul li a, #report ul li a {
     text-decoration: none;
     }
 .testimony {
@@ -870,7 +885,7 @@ div#testimony-list {
 #guidetext .tabcontent {
 	padding: 0 7em;
 	}
-#news1 ul li, #news2 ul li, #news3 ul li {
+#news1 ul li, #news2 ul li, #news3 ul li, #report ul li {
     /*padding-right: 3% !important;*/
     /*width: 30%;*/
 	list-style-position: outside;
@@ -921,4 +936,10 @@ ol {
 }
 #guide .download .col-sm-7 {
     width: 85%;
+}
+#program ul.tab li a:focus, .active {
+    background-color: #ec9006 !important;
+}
+.history_b img {
+		float: right;
 }
