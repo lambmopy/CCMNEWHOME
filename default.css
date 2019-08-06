@@ -810,7 +810,7 @@ div#processing {
 #testimony-list h2 {
     text-align: center;
 }
-#news ul li, #testimony-list ul li {
+#news ul li, #news ul li, #testimony-list ul li {
     text-decoration: none;
     /*list-style-type: circle !important;*/
 	list-style-position: inside !important;
@@ -823,7 +823,9 @@ div#processing {
     float: left;
 	padding: 1%;
 }
-
+.news-cols, .news-type  {
+	float:right;
+}
 #news li, #testimony-list li {
     padding: 0.2em 0;
 	}
