@@ -681,6 +681,7 @@ form#contactForm {
 .footer a
 	{
 	color: #fff;
+	text-decoration: none;
 	}
 .col66 {
 	max-width: 66%;
@@ -942,4 +943,30 @@ ol {
 }
 .history_b img {
 		float: right;
+}
+.report ul.tab {
+	margin: 0 20.5em;
+}
+.coop-left, .coop-right {
+	width: 50%;
+	float:left;
+}
+.coop .title, .coop .byline {
+	text-align: left;
+	padding-top: 0;
+}
+#guideline #content {
+	width: 1000px;	
+	text-align: left;
+}
+#guideline {
+	height: 800px;
+	width: 1000px;
+}
+#guideline h2 {
+    padding: 2em 0 2em 1em;
+}
+#guideline a {
+	color: #0682ec;
+	text-decoration: none;
 }
