@@ -283,7 +283,7 @@
 	#menu ul
 	{
 		margin: 0;
-		padding: 20px 0px 20px 0px;
+		padding: 30px 0px ;
 		list-style: none;
 		line-height: normal;
 		text-align: center;
@@ -688,6 +688,11 @@ form#contactForm {
 	float: left;
 	margin-bottom: 4em;
 	}
+.col60 {
+	max-width: 59%;
+	float: left;
+	padding-right: 1%;
+	}
 .col33 {
 	width: 31%;
 	float: left;
@@ -729,7 +734,7 @@ form#contactForm {
 }
 
 .footer_bottom {
-	padding: 1em 0 6em 0;
+	padding: 1em 0;
 	}
 ul#footer-1{
     float: left;
@@ -739,21 +744,22 @@ ul#footer-1{
     max-width: 1200px;
     margin: auto;
 }
-.footer-logo, 
-.footer-copyright {
+.footer-logo {
     float: left;
 	width: 45%;
 }
+
+
 .footer li {
-	padding: 1em;
+	padding: 0 1.5em;
 }
 .footer-logo {
-    text-align: right;
-	padding-right: 3em;
+    text-align: center;
+	padding-left: 4%;
 }
 
 .footer-copyright {
-    text-align: left;
+    text-align: center;
 	padding-left: 0;
 }
 
@@ -796,7 +802,12 @@ div#processing {
 .news, .report {
 	text-align: center;
 }
-#news, #report {
+#news {
+	width: 1200px;
+	margin: 0 auto;
+	margin-bottom: 5em; 
+	}
+#report {
 	width: 1200px;
 	margin: 0 auto;
 	margin-bottom: 5em; 
@@ -891,7 +902,7 @@ div#testimony-list {
     /*width: 30%;*/
 	list-style-position: outside;
 }
-#faq {
+#faq, #applyneeds {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -969,4 +980,18 @@ ol {
 #guideline a {
 	color: #0682ec;
 	text-decoration: none;
+}
+.col50 {
+    width: 50%;
+    float: left;
+}
+.needs .title {
+	text-align: left;
+}
+#apply_needs .title {
+	text-align: center;
+}
+.needs .col100 {
+    padding-left: 7em;  
+	text-align: center;
 }
