@@ -605,7 +605,7 @@ button {
     background-color: #4CAF50;
     font-size: 1.2em;
     /* text-align: center; */
-    padding: 15px 32px;
+    padding: 10px 15px;
 	float: right;
 	}
 button1 {
@@ -994,4 +994,34 @@ ol {
 .needs .col100 {
     padding-left: 7em;  
 	text-align: center;
+}
+.applyneeds {
+    padding: 2em 0;
+}
+.applyneeds h2{
+    padding-bottom: 1em;
+}
+.applyneeds h23, .applyneeds h4  {
+    padding: 1em 0;
+}
+.applyneeds ol {
+    padding-left: 1em;
+}
+
+.applyneeds ol li, .applyneeds ul li {
+    padding: 0.2em 0;
+}
+.needs ul {
+    padding: 2em 1em 0 8em;
+}
+.needs ul h3  {
+    padding: 1em 0;
+}
+.needs ul li, .needs ul li a  {
+    padding: 0.2em 0;
+	color: #0f5cec;
+	text-decoration: none;
+}
+.needs ul li a:hover  {
+    color: #000000;	
 }
