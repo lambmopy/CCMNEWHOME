@@ -846,7 +846,8 @@ div#processing {
     padding: 0 5%;
      }
 
-.category-news, .category-report, .news-type, .news-cols, .report-type, .report-cols {
+.category-news, .category-report, .category-prayer, .category-health, .category-local,
+.news-type, .news-cols, .report-type, .report-cols {
     float: left;
 	padding: 1%;
 }
@@ -972,7 +973,8 @@ ol {
 }
 #guideline {
 	height: 800px;
-	width: 1000px;
+	width: 800px;
+	font-weight: 505;
 }
 #guideline h2 {
     padding: 2em 0 2em 1em;
@@ -1024,4 +1026,7 @@ ol {
 }
 .needs ul li a:hover  {
     color: #000000;	
+}
+.interview h2 {
+    padding: 2em 0;
 }
