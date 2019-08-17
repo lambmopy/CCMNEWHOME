@@ -1030,3 +1030,11 @@ ol {
 .interview h2 {
     padding: 2em 0;
 }
+#form_container button {
+    float: left;
+    margin-left: 0.5em;
+	margin-top: 2em;
+}
+.form-questions {
+    margin: 5em 0;
+}
