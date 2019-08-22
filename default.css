@@ -988,6 +988,11 @@ ol {
     width: 48%;
     float: left;
 }
+.coop .col50 {
+    width: 42%;
+    float: left;
+    padding: 2%;
+}
 .needs .title {
 	text-align: left;
 }
@@ -1041,4 +1046,8 @@ ol {
 }
 .referral h3 {
     font-size: 1.1em;
+}
+.coop #featured h3, .coop #featured h2 {
+    padding: 2em 0;
+	text-align: left;
 }
