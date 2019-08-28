@@ -1066,3 +1066,6 @@ ol {
 .coop {
     min-height: 800px;
 }
+#about h2, #about h3, #about h4 {
+    padding: 1em 0;
+}
